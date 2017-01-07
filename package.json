@@ -1,0 +1,22 @@
+{
+  "name": "d3-babel",
+  "version": "1.0.0",
+  "description": "D3 boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./public/src/*.js",
+    "start": "felt --recipe minimal --src public --watch --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamataryo",
+  "license": "MIT",
+  "dependencies": {
+    "d3-selection": "^1.0.3",
+    "d3-transition": "^1.0.3",
+    "felt": "^0.3.1",
+    "felt-recipe-minimal": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.0"
+  }
+}

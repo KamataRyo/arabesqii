@@ -1,0 +1,57 @@
+{
+  "env": {
+      "node": true,
+      "es6": true,
+      "commonjs": true,
+      "mocha": true,
+      "browser": true,
+      "protractor": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {}
+  },
+  "rules": {
+      "arrow-parens": ["error", "as-needed"],
+      "arrow-spacing": ["error", { "before": true, "after": true }],
+      "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+      "comma-spacing": ["error", { "before": false, "after": true }],
+      "indent": ["error", 2, { "SwitchCase": 1 }],
+      "valid-jsdoc": ["error"],
+      "key-spacing": ["error", { "mode": "minimum" }],
+      "keyword-spacing": ["error"],
+      "linebreak-style": ["error", "unix"],
+      "no-dupe-args": ["error"],
+      "no-console": ["warn"],
+      "no-const-assign": ["error"],
+      "no-unused-vars": ["warn"],
+      "object-curly-spacing": ["error", "always"],
+      "require-jsdoc": ["error", {
+        "require": {
+            "ArrowFunctionExpression": true,
+            "FunctionDeclaration": true,
+            "MethodDefinition": true,
+            "ClassDeclaration": true
+        }
+      }],
+      "quotes": ["error", "single"],
+      "semi": ["error", "never"],
+      "spaced-comment": ["error", "always", {
+    "line": {
+        "markers": ["/"],
+        "exceptions": ["-", "+"]
+    },
+    "block": {
+        "markers": ["!"],
+        "exceptions": ["*"],
+        "balanced": true
+      }
+    }],
+    "space-infix-ops": ["error", { "int32Hint": false }]
+  },
+  "plugins": []
+}
