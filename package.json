@@ -1,11 +1,12 @@
 {
-  "name": "d3-babel",
+  "name": "arabesqii",
   "version": "1.0.0",
-  "description": "D3 boilerplate",
-  "main": "index.js",
+  "description": "Arabesqii is geometric Arabesque fun site.",
+  "main": "public/index.html",
   "scripts": {
     "lint": "eslint ./public/src/*.js",
     "start": "felt --recipe minimal --src public --watch --debug",
+    "start-heroku": "felt --recipe minimal --src public --port $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kamataryo",
