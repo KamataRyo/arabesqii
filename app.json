@@ -1,0 +1,10 @@
+{
+    "name": "arabesqii",
+    "description": "Arabesqii is geometric Arabesque fun site.",
+    "website": "https://github.com/KamataRyo/arabesqii",
+    "repository": "https://github.com/KamataRyo/arabesqii",
+    "keywords": ["node", "d3", "arabesque"],
+    "env": {
+        "BUILDPACK_URL": "https://github.com/mojodna/heroku-buildpack-multi.git#build-env"
+    }
+}
