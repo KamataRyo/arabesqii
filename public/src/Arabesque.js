@@ -12,7 +12,18 @@ const arrayAdd = (a, b) => {
   return result
 }
 
+/**
+ * Sin
+ * @param  {Number} deg [description]
+ * @return {Number}     [description]
+ */
 const sin = deg => Math.sin(Math.PI * deg / 180)
+
+/**
+ * Cos
+ * @param  {Number} deg [description]
+ * @return {Number}     [description]
+ */
 const cos = deg => Math.cos(Math.PI * deg / 180)
 
 /**
@@ -39,18 +50,6 @@ const createSproketTable = sprokets => Array.from(Array(sprokets).keys()).map(i 
  */
 const extend = (point, distance, angle) => arrayAdd(point, polar2angular([distance, angle]))
 
-/**
- * アラベスク模様を描写するためのポリラインを作成
- * @param {[type]} svg      [description]
- * @param {[type]} cx       [description]
- * @param {[type]} cy       [description]
- * @param {[type]} distance [description]
- * @param {[type]} radius   [description]
- * @param {[type]} slope1   [description]
- * @param {[type]} slope2   [description]
- * @param {[type]} sprokets [description]
- * @param {[type]} branch   [description]
- */
 export default (svg, {
   cx,
   cy,
