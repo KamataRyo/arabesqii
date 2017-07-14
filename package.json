@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Arabesqii is geometric Arabesque fun site.",
   "main": "public/index.html",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "lint": "eslint ./public/src/*.js",
     "start": "felt --recipe minimal --src public --watch --debug",
